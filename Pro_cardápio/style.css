@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(41, 40, 40);
+    color: rgb(194, 201, 201);
+}
+
+section{
+     height: 30vh;
+    overflow :auto;
+}
+    
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+ display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
